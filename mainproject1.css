@@ -1,0 +1,126 @@
+
+/* html*/
+html {
+  font-style: normal;
+  font-size: 20px;
+  background-color: navy;
+}
+/*body header styles */
+header {
+  background-color:navy ;
+  padding:30px;
+  text-align: center;
+}
+
+img {
+  min-width: 640px;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  display:block;
+   width: 35%;
+    
+}
+
+/* nav style */
+nav ul {
+  display:inline  ;
+  
+  list-style: none; 
+  padding: 8px 16px;
+  margin : navajowhite;
+  margin: 50px;
+  box-sizing: 25px;
+  box-shadow: navajowhite;
+  border: 5px solid navajowhite;
+  text-align: center;
+}
+
+  nav li a {
+    display:inline;
+    list-style: none;  
+    margin : navajowhite;
+    margin: 190px;
+    border: 5px solid navajowhite;
+    text-align: center;
+  }
+li a.active {
+  background-color: skyblue;
+  color:navajowhite;
+}
+li a:hover:not(.active){
+  background-color: skyblue;
+  color:navajowhite
+}
+
+
+
+
+
+/* paragraph style */
+p {
+  
+  background-color:rgba(225, 142, 65, 0.808);
+  
+  align-items: 35px;
+}
+/* h1 h2 h3 style */
+h1 { 
+   
+  text-align: center;
+  font-style: oblique;
+  background-color: rgba(225, 142, 65, 0.808);
+  color:navajowhite;
+}
+h2 {
+    
+  text-align: center;
+  font-style: oblique;
+  background-color: rgba(225, 142, 65, 0.808) ;
+    color: navajowhite;
+}
+h3 {
+    
+  
+  font-style: oblique;
+  background-color: rgba(225, 142, 65, 0.808);
+    color:navajowhite;
+}
+/* ul style */
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  width: 90%;
+  color: navajowhite;
+
+}
+li  {
+  
+  display: inline;
+  background-color:rgba(225, 142, 65, 0.808);
+}
+/* section */
+.Column  {
+  float:left;
+  width:50%
+  
+}
+section#rightColum {
+  float:left;
+  width:67%;
+}
+
+/* footer */
+/* cantainer collapes styles */
+body > footer::after {
+  clear:both;
+  content:'';
+  display:table;
+}
+footer {
+  float:left;
+  width:22%;
+    color: navajowhite;
+}
